@@ -3,3 +3,19 @@
     padding: 0;
     background-color: rgb(253, 251, 251);
 }
+body {
+    /* width: 1300px;
+    height: 768px; */
+}
+#cabecalho {
+    position: fixed;
+    padding: 9px 0;
+    width: 1366px;;
+    background-color: grey;
+}
+#titulo {
+    padding-left:110px;
+    width: fit-content;
+    height: fit-content;
+    background-color: grey;
+}
