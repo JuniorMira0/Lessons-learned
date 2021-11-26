@@ -6,11 +6,28 @@ body {
     background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
     background-attachment: fixed;
 }
-/* #cabecalho {
+#cabecalho {
     position: fixed;
-    padding: 9px 0;
-    width: 1300px;
-    background-color: grey; */
+    top: 0;
+    background-color: grey;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+.menu ul li {
+    padding: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+    list-style: none;
+}
+.menu-hide {
+    display: none;
+}
+nav:hover .menu-hide {
+    display: block;
 }
 #titulo {
     text-align: right;
