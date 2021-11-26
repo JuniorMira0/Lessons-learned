@@ -4,6 +4,7 @@
 }
 body {
     background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
+    background-attachment: fixed;
 }
 /* #cabecalho {
     position: fixed;
@@ -32,20 +33,15 @@ body {
     text-align: center;
     padding: 10px;
 }
-#sessao1  {
+#sessao1, #sessao2, #sessao3, #sessao4 {
     padding-top: 200px;
+    padding-bottom: 200px ;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-#sessao2 {
-    padding-top: 200px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 #licoes_aprendidas, li {
     list-style: none;
         padding: 2px;
@@ -61,4 +57,7 @@ body {
     border-radius: 10%;
     box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.329);
 
+}
+article, aside, h1, p {
+    font-size: 20px;
 }
