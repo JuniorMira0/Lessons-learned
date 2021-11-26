@@ -46,13 +46,11 @@ body {
     align-items: center;
     text-align: center;
 }
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas, li {
     list-style: none;
+        padding: 2px;
 }
-#licoes_a_aprender li {
-    padding: 2px;
-}
-#licoes_a_aprender li:hover {
+#licoes_a_aprender #licoes_aprendidas, li:hover {
     color: grey;
 }
 .caixas {
