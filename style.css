@@ -7,6 +7,7 @@ body {
  */    
     background-attachment: fixed;
     background-color: rgb(253, 251, 251);
+    font-family: 'Source Code Pro', monospace;
 }
 #cabecalho {
     position: fixed;
@@ -50,13 +51,13 @@ nav:hover .menu-hide {
 }
 #box, h1 , p {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .icons {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 #sessao1, #sessao2, #sessao3, #sessao4 {
     padding-top: 200px;
