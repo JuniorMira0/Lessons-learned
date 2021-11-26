@@ -33,6 +33,12 @@ body {
     text-align: center;
     padding: 10px;
 }
+.icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
 #sessao1, #sessao2, #sessao3, #sessao4 {
     padding-top: 200px;
     padding-bottom: 200px ;
