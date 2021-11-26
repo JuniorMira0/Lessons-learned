@@ -3,8 +3,7 @@
     padding: 0;
 }
 body {
-/*     background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
- */    
+    background: url(Fotos\ projeto/fundo1.jpg)no-repeat top center;
     background-attachment: fixed;
     background-color: rgb(253, 251, 251);
     font-family: 'Source Code Pro', monospace;
