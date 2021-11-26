@@ -1,19 +1,29 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho {
+/* #cabecalho {
     position: fixed;
     padding: 9px 0;
-    width: 1366px;;
-    background-color: grey;
+    width: 1300px;
+    background-color: grey; */
 }
 #titulo {
-    padding-left:110px;
-    width: fit-content;
-    height: fit-content;
+    text-align: right;
     background-color: grey;
+}
+#box {
+    background-color:#585959af;
+    border-radius:10%;
+    width: 350px;
+    height: 500px;
+    padding: 50px 40px 40px 64px;
+    margin: 0 auto 0 auto;
+}
+#minha_foto {
+    border-radius: 50%;
+    width: 300px;
 }
